@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm của chúng tôi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+        }
+        .products {
+            display: flex;
+            justify-content: space-between;
+        }
+        .product {
+            background: white;
+            padding: 100px;
+            border-radius: 50px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .product img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .product p {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .product button {
+            background-color: orange;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: darkorange;
+        }
+		p {color: red;}
+    </style>
+</head>
+<body>
+<table>
+   <tr><div class="container">
+        <h2>Sản phẩm của chúng tôi</h2>
+        <div class="products">
+            <div class="product">
+                <img src="img/v.png" alt="Thạch 3D Hoa">
+                <h3>Bánh Thạch Lá</h3>
+                <p>Giá: 29.000 VND</p>
+				<button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+            </div>
+            <div class="product">
+                <img src="img/r.png" alt="Thạch Nghệ Thuật">
+                <h3>Bánh Thạch Hoa</h3>
+                <p>Giá: 159.000 - 259.000 VND</p>
+              	<button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+            </div>
+        </div>
+		</tr>
+		   <tr><div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="img/tim1.png" alt="Thạch 3D Hoa">
+                <h3>Bánh Thạch Valentin</h3>
+                <p>Giá: 99.000 - 199.000 VND</p>
+				<button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+            </div>
+            <div class="product">
+                <img src="img/ngua1.png" alt="Thạch Nghệ Thuật">
+                <h3>Bánh Thạch Động Vật</h3>
+                <p>Giá: 99.000 - 299.000 VND</p>
+              	<button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+            </div>
+        </div>
+		</tr>
+		   <tr><div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="img/d.png" alt="Thạch 3D Hoa">
+                <h3>Bánh Thạch Dâu</h3>
+                <p>Giá: 39.000 VND</p>
+				<button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+            </div>
+            <div class="product">
+                <img src="img/t.png" alt="Thạch Nghệ Thuật">
+                <h3>Bánh Thạch Heo</h3>
+                <p>Giá: 100.000 - 150.000 VND</p>
+              	<button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+            </div>
+        </div>
+		</tr>
+    </div>
+</table>
+</body>
+</html>

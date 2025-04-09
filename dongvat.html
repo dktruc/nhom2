@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Sản Phẩm Của Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f8f8;
+	  background-image: url('https://i.pinimg.com/736x/9d/4b/48/9d4b48d4d1b7d23473fec035a3c52935.jpg'); 
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center; 
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 900px;
+      margin: 80px;
+    }
+
+    .image-item {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+    }
+
+    .image-item img {
+      width: 400px;
+      height: 400px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .image-caption {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+	p {color: red;}
+	h1 {color: Green;}
+  </style>
+</head>
+<body>
+
+  <h1><b>SẢN PHẨM CỦA SHOP<b></h1>
+
+  <div class="image-grid">
+    <div class="image-item">
+      <img src="img/thô.jpg" width=" 400px" height="400px" alt="Thạch 3D Hoa">
+      <h3> Bánh Hình Thỏ</h3>
+      <p>Giá: 39.000 VND</p>
+	  <button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+    </div>
+    <div class="image-item">
+      <img src="img/lonn.jpg" width=" 400px" height="400px" alt="Thạch Nghệ Thuật">
+                <h3>Bánh Hình Heo</h3>
+                <p>Giá: 39.000 VND</p>
+	  <button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+    </div>
+    <div class="image-item">
+      <img src="img/btho.jpg" width=" 400px" height="400px" alt="Thạch Nghệ Thuật" width>
+                <h3>Bánh Sinh Nhật Và Thỏ Con</h3>
+                <p>Giá: 99.000 - 299.000 VND</p>
+	  <button class="buy-button" onclick="redirectToCheckout()">Đặt hàng</button>
+			<script>
+				function redirectToCheckout() {
+					window.location.href = "s1.html";
+				}
+			</script>
+    </div>
+  </div>
+
+</body>
+</html>
